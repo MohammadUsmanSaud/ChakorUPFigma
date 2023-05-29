@@ -33,8 +33,8 @@ const Navbar123 = () => {
             <Nav.Link className="navTextReferral" href="#pricing">Referral</Nav.Link>
           </Nav>
           <Nav className="dropdownGap">
-            <DropdownCustom/>
-            <DropdownCustom/>
+            <DropdownCustom dropdownTag='USA'/>
+            <DropdownCustom dropdownTag='Roberson'/>
           </Nav> 
         </Navbar.Collapse>
       </Container>

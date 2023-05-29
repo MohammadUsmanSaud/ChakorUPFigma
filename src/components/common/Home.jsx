@@ -13,7 +13,6 @@ const Home = () => {
             <h1>My Profile</h1>
             <p>Free property! Invite your friends and you'll both receive a gift balance to invest in our properties!</p>
           </div>
-
           <div className="d-flex formTopMargin" style={{gap:"32px"}}>
             <div>
               <VerifyGroup/>
