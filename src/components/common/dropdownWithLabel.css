@@ -1,0 +1,17 @@
+.dropdownWithLabel {
+    padding: 12px 16px;
+    width: 373px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D8E0E8;
+    border-radius: 8px;
+}
+.labelStyleDropdown {
+    margin-bottom: 8px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #192126;
+}

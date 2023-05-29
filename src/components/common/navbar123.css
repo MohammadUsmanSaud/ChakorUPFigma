@@ -1,0 +1,84 @@
+.navHeight {
+    height: 96px;
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    min-width: 0;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 0;
+}
+nav .container {
+    height: 100%;
+}
+.navLogo {
+    margin-left: 26px;
+    margin-right: 0px;
+}
+.Line {
+    margin-left: 41px;
+    margin-right: 33px;
+}
+.navDropdownRightMargin {
+    margin-right: 37px;
+}
+.navText {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000929;
+}
+.navLinkGap {
+    column-gap: 32px;
+}
+.navLinkGap .navText {
+    padding: 8px 0px;
+}
+.navTextReferral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 40px;
+    color: #7065F0;
+    background: #E8E6F9;
+    border-radius: 6px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'ss06' on, 'ss04' on, 'liga' off;
+    color: #7065F0;
+}
+.dropdownGap {
+    display: flex;
+    column-gap: 11px;
+    margin-right: 37px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv {
+   min-width: 1120px; 
+}
+h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    color: #000929;
+}
+p {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #84818A;
+}
