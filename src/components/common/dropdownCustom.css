@@ -9,6 +9,10 @@
     font-size: 16px;
     line-height: 150%;
     color: #000929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 .btn:hover {
     color: #000929;
@@ -17,7 +21,4 @@
 }
 .dropdown-toggle::after {
     display: none !important;
-}
-.svgIcon {
-    margin-left: 8px;
 }

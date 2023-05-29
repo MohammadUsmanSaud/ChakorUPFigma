@@ -4,13 +4,14 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import './dropdownCustom.css';
 
 function ButtonCustomExample({
-  dropdownTag
+  dropdownTag,
+  imageSvg
 }) {
   return (
     <>
       <Dropdown as={ButtonGroup}>
         <Dropdown.Toggle className="dropdownBody" id="dropdown-custom-1"> 
-        {dropdownTag}
+        {imageSvg}{dropdownTag}
         <svg className="svgIcon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1.33398 1.66669L6.00065 6.33335L10.6673 1.66669" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>

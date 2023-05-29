@@ -13,7 +13,7 @@ const PersonalDetail = () => {
         <div className="personalMain">
             <div className="personalMainText">
                 <h3>Personal Details</h3>
-                <p>A bit more information about yourself"Username"</p>
+                <p className="personalText">A bit more information about yourself"Username"</p>
             </div>
             <div className="inputGap">
                 <LabelInput Tag='FirstName' value='Roberson'/>
