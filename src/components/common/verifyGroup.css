@@ -80,3 +80,30 @@ hr {
     color: #777E91;
     margin-bottom: 0;
 }
+@media (max-width: 1214px) { 
+    h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .svgSize {
+        width: 140px;
+        height: 140px;
+    }
+    .verifyContainer {
+        padding: 24px 28px;
+    }
+
+}
+@media (max-width: 1107px) { 
+    .verifyContainer {
+        padding: 20px 24px;
+    } 
+    h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .svgSize {
+        width: 140px;
+        height: 140px;
+    }
+}

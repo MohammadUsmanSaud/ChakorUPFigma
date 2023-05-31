@@ -14,10 +14,10 @@ const Home = () => {
             <p>Free property! Invite your friends and you'll both receive a gift balance to invest in our properties!</p>
           </div>
           <div className="d-flex formTopMargin" style={{gap:"32px"}}>
-            <div>
+            <div className="verifyGroupTabSize">
               <VerifyGroup/>
             </div>
-            <div>
+            <div className="verifyGroupTabSize">
               <PersonalDetail/>
             </div>
           </div>

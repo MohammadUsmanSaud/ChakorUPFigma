@@ -18,11 +18,11 @@ const PersonalDetail = () => {
             <div className="inputGap">
                 <LabelInput Tag='FirstName' value='Roberson'/>
                 <LabelInput Tag='MiddleName' value='-'/>
-                <LabelInput Tag='LastName' value='Cole'/>
+                <LabelInput className="" Tag='LastName' value='Cole'/>
             </div>
             <div className="inputGap2">
                 <LabelInput Tag='Email' value='delroberson.cole@email.com' type= 'email'/>
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex", width:"100%"}}>
                     <DropdownPhoneNum Tag1='Phone Number' value1='+1 (234) 567 - 891' type1='text'/>
                 </div>
             </div>
@@ -33,7 +33,7 @@ const PersonalDetail = () => {
             <p className="passwordText">You password was last changed on <span style={{color:"#192126", fontWeight: "600"}}>3rd October 2021</span></p>
             <ButtonMain className="btnPadding" BtnName='Change Password'/>
             <hr/>
-            <div className="addressPadding">
+            {/* <div className="addressPadding">
                 <h3 className="addressText">Home Address</h3>
                 <div style={{display:"flex", gap:"29px"}}>
                     <DropdownWithLabel tag='Country'/>
@@ -73,7 +73,7 @@ const PersonalDetail = () => {
                         </svg>
                     />
                 </div>
-            </div>
+            </div> */}
         </div>
         <div className="groupSave">
             <ButtonMain className="saveBtnWidth discardBtn" BtnName='Discard'/>

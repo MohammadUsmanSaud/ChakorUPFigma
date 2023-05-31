@@ -1,3 +1,7 @@
+input,textarea {
+    width:100%;
+    display:block 
+}
 .personalMain {
     background: #FCFCFD;
     border: 1px solid #E6E8EC;
@@ -125,3 +129,10 @@ hr {
     color: #192126 !important;
     background-color: #FFFFFF !important;
 }
+@media (max-width: 870px) { 
+    .personalMain {
+        padding: 20px 24px;
+    }
+}
+
+

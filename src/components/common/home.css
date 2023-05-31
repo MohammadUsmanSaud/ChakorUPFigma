@@ -25,3 +25,11 @@ p {
 .formTopMargin {
     margin-top: 44px;
 }
+@media (max-width: 870px) { 
+    .formTopMargin {
+        flex-direction: column;
+    }
+    .verifyGroupTabSize {
+        width: 100%;
+    }
+}

@@ -82,3 +82,32 @@ p {
     line-height: 150%;
     color: #84818A;
 }
+@media (max-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+    }
+    .mainDiv {
+        max-width: 82%;
+        width: 100%;
+        min-width: 0;
+    }
+}
+@media (max-width: 1200px) {
+    .dropdownGap {
+        margin-right: 0px;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1280px;
+    }
+    .mainDiv {
+        max-width: 80%;
+        width: 100%;
+    }
+    .navLogo {
+        margin-left: 26px;
+        margin-right: 0px;
+    }
+    .navDropdownRightMargin {
+        margin-right: 37px;
+    }
+}

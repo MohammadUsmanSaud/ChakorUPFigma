@@ -20,7 +20,7 @@
     min-width: 244px;
     min-height: 48px;
     max-width: 100%;
-    width: 100%;
+
     background: #FFFFFF;
     border: 1px solid #D8E0E8;
     border-radius: 8px;
@@ -37,4 +37,27 @@
 }
 .textAreaHeight {
     height: 126px;
+}
+.dropdownNumberIcons {
+    min-width: 303px;
+    max-width: 100%;
+}
+@media (max-width: 1330px) { 
+    .inputStyle {
+        min-width: 180px;
+        min-height: 48px;
+        max-width: 100%;
+    }
+}
+@media (max-width: 1120px) { 
+    .inputStyle {
+        min-width: 140px;
+        min-height: 48px;
+        max-width: 100%;
+    }
+}
+@media (max-width: 623px) { 
+    .lastNameSize {
+        width: 100%;
+    }
 }

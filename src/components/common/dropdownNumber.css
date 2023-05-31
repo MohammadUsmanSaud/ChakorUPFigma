@@ -11,3 +11,8 @@
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
 }
+@media (max-width: 1000px) {  
+    .dropdown22 {
+        width: 50px;
+    }
+}

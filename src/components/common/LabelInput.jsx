@@ -8,7 +8,7 @@ const LabelInput = (
         type = 'text'
     }
     ) => {return (
-    <div className="inputDiv">
+    <div className="inputDiv lastNameSize">
       <label className="labelStyle">{Tag}</label>
       <input className= {`inputStyle ${classname}`} type={type} value={value}/>
     </div>
