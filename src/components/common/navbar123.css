@@ -93,9 +93,6 @@ p {
     }
 }
 @media (max-width: 1200px) {
-    .dropdownGap {
-        margin-right: 0px;
-    }
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1280px;
     }
@@ -107,7 +104,7 @@ p {
         margin-left: 26px;
         margin-right: 0px;
     }
-    .navDropdownRightMargin {
+    .dropdownGap {
         margin-right: 37px;
     }
 }

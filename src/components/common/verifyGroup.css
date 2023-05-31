@@ -80,10 +80,21 @@ hr {
     color: #777E91;
     margin-bottom: 0;
 }
-@media (max-width: 1214px) { 
+@media (max-width: 1367px) { 
+    h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1250px) { 
     h2 {
         font-size: 18px;
-        line-height: 28px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 1214px) { 
+    h2 {
+        font-size: 17px;
+        line-height: 26px;
     }
     .svgSize {
         width: 140px;
@@ -94,13 +105,19 @@ hr {
     }
 
 }
+/* @media (max-width: 1214px) { 
+    h2 {
+        font-size: 17px;
+        line-height: 26px;
+    }
+} */
 @media (max-width: 1107px) { 
     .verifyContainer {
         padding: 20px 24px;
     } 
     h2 {
         font-size: 16px;
-        line-height: 24px;
+        line-height: 22px;
     }
     .svgSize {
         width: 140px;
