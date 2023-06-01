@@ -1,3 +1,17 @@
+.navbar-toggler {
+    color: #000929;
+    background-color: #000929;
+    border: #000929;
+}
+.navbar-collapse {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 12px;
+    gap: 12px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .navHeight {
     height: 96px;
     background-color: #FFFFFF;
@@ -106,5 +120,29 @@ p {
     }
     .dropdownGap {
         margin-right: 37px;
+    }
+}
+@media (max-width: 991px) {
+    .navLinkGap {
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .dropdownGap {
+        margin-right: 0px;
+        row-gap: 12px;
+    }
+    .Line {
+        display: none;
+    }
+}
+@media (max-width: 870px) {  
+    .mainDiv {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .navLogo {
+        margin-left: 0px;
     }
 }

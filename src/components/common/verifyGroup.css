@@ -124,3 +124,9 @@ hr {
         height: 140px;
     }
 }
+@media (max-width: 870px) {  
+    h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}

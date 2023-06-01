@@ -134,5 +134,41 @@ hr {
         padding: 20px 24px;
     }
 }
-
+@media (max-width: 550px) {
+    .inputGap {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .inputGap2 {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .groupSave {
+        justify-content: center;
+    }
+    .dropdownWithLabelSmSize {
+        flex-direction: column;
+    }
+    .personalMain {
+        padding: 20px 20px;
+    }
+}
+@media (max-width: 400px) {
+    .groupSave {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    .buttonStyle {
+        width: 100%;
+    }
+    .dropdownWithLabelSmSize1 {
+        flex-direction: column;
+    }
+    .personalMain {
+        padding: 18px 18px;
+    }
+    .mainDiv {
+        padding: 15px 15px 0px 15px;
+    }
+}
 

@@ -33,13 +33,14 @@ const PersonalDetail = () => {
             <p className="passwordText">You password was last changed on <span style={{color:"#192126", fontWeight: "600"}}>3rd October 2021</span></p>
             <ButtonMain className="btnPadding" BtnName='Change Password'/>
             <hr/>
-            {/* <div className="addressPadding">
+            {/*  */}
+            <div className="addressPadding">
                 <h3 className="addressText">Home Address</h3>
-                <div style={{display:"flex", gap:"29px"}}>
+                <div className="dropdownWithLabelSmSize" style={{display:"flex", gap:"29px"}}>
                     <DropdownWithLabel tag='Country'/>
                     <DropdownWithLabel tag='City'/>
                 </div>
-                <div style={{display:"flex", gap:"29px"}}>
+                <div className="dropdownWithLabelSmSize1" style={{display:"flex", gap:"29px"}}>
                     <DropdownWithLabel tag='States'/>
                     <LabelInput Tag='Zip Code' value='200421'/>
                 </div>
@@ -47,6 +48,7 @@ const PersonalDetail = () => {
             </div>
             <ButtonMain className="btnAddAddress" BtnName='+ Add address line'/>
             <hr/>
+            {/*  */}
             <div className="socialPadding">
                 <h3>Social Accounts</h3>
                 <div style={{marginTop:'26px', display:'flex', flexDirection:'column', gap:'16px'}}>
@@ -73,7 +75,7 @@ const PersonalDetail = () => {
                         </svg>
                     />
                 </div>
-            </div> */}
+            </div>
         </div>
         <div className="groupSave">
             <ButtonMain className="saveBtnWidth discardBtn" BtnName='Discard'/>

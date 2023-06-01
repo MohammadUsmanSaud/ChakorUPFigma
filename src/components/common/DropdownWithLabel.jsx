@@ -5,7 +5,7 @@ const DropdownWithLabel = ({
     tag
     }) => {
   return (
-    <div style={{display:"flex", flexDirection:"column"}}>
+    <div style={{display:"flex", flexDirection:"column", width:"100%"}}>
         <label className="labelStyleDropdown">{tag}</label>
         <select className="dropdownWithLabel" name="Country" id="country">
             <option value="USA">USA</option>                
