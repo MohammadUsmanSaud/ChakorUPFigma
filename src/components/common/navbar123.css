@@ -96,6 +96,13 @@ p {
     line-height: 150%;
     color: #84818A;
 }
+@media (min-width: 1440px) {
+    .navHeight {
+        max-width: 100%;
+        min-width: 0;
+    }
+    
+}
 @media (max-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1320px;
@@ -120,6 +127,11 @@ p {
     }
     .dropdownGap {
         margin-right: 37px;
+    }
+}
+@media (max-width: 1037px) {
+    .dropdownGap {
+        margin-right: 15px;
     }
 }
 @media (max-width: 991px) {

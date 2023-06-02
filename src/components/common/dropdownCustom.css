@@ -22,3 +22,9 @@
 .dropdown-toggle::after {
     display: none !important;
 }
+@media (max-width: 1037px) {
+    .btn {
+        --bs-btn-padding-x: 0.35rem;
+        --bs-btn-padding-y: 0.275rem;
+    }
+}
